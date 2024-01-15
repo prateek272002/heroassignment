@@ -27,7 +27,7 @@ export default function ViewEd(props) {
 
   const handleDelete = async () => {
     try {
-      const response = await axios.delete(`http://localhost:5000/api/programs/${props.name}`);
+      const response = await axios.delete(`https://herobackend-xprm.onrender.com/api/programs/${props.name}`);
       if (response.data.message) {
         alert("Deleted Successfully");
         setOnlyView(false);
@@ -55,7 +55,7 @@ export default function ViewEd(props) {
     };
 
     try {
-      const response = await axios.put(`http://localhost:5000/api/programs/${props.name}`, updatedProgramData);
+      const response = await axios.put(`https://herobackend-xprm.onrender.com/api/programs/${props.name}`, updatedProgramData);
       console.log(response.data.message);
       setOnlyView(false);
       setDescription('');

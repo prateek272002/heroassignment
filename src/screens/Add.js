@@ -65,7 +65,7 @@ export default function Add() {
   }, []);
       useEffect(() => {
           
-        axios.get('http://localhost:5000/api/programs')
+        axios.get('https://herobackend-xprm.onrender.com/api/programs')
       .then(response => setallProgram(response.data))
       .catch(error => console.error('Error:', error.message));
   }, );
@@ -94,7 +94,7 @@ export default function Add() {
         console.log(formData);
         
         try {
-            const response = await axios.post('http://localhost:5000/api/programs', formData, {
+            const response = await axios.post('https://herobackend-xprm.onrender.com/api/programs', formData, {
               headers: {
                 'Content-Type': 'application/json',
               },
@@ -137,7 +137,7 @@ export default function Add() {
         console.log(formData);
         
         try {
-            const response = await axios.post('http://localhost:5000/api/programs/draft', formData, {
+            const response = await axios.post('https://herobackend-xprm.onrender.com/api/programs/draft', formData, {
               headers: {
                 'Content-Type': 'application/json',
               },
