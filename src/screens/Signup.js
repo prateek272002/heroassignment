@@ -22,7 +22,7 @@ export default function Signup() {
      }
    
     else {
-      alert( alert(response.data.error));
+      alert( "Error in Sign");
     }
   }
   return (

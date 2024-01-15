@@ -21,7 +21,7 @@ export default function Login() {
      }
    
     else if(!response.data.success) {
-      alert(response.data.errors);
+      alert("Error in login");
     }
   }
 

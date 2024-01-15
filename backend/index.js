@@ -222,12 +222,12 @@ body('password', "Password cannot be blank").exists()
   try {
       let user = await User.findOne({ email });  //{email:email} === {email}
       if (!user) {
-          return res.json({ success:false, error: "Try Logging in with correct credentials" });
+          return res.json({ success:false, errors: "Try Logging in with correct credentials" });
       }
 
       const pwdCompare = await bcrypt.compare(password, user.password); // this return true false.
       if (!pwdCompare) {
-          return res.json({ success:false, error: "Try Logging in with correct credentials" });
+          return res.json({ success:false, errors: "Try Logging in with correct credentials" });
       }
       const data = {
           user: {
@@ -241,7 +241,7 @@ body('password', "Password cannot be blank").exists()
 
   } catch (error) {
       console.error(error.message)
-      res.json({error:"Server Error"})
+      res.json({errors:"Server Error"})
   }
 })
 
