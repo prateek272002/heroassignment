@@ -7,7 +7,8 @@
     "hmr": "nodemon index.js",
     "nodemon": "npm run hmr",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i"
   },
   "author": "end to end",
   "license": "ISC",
