@@ -6,11 +6,11 @@ Check out our App at [HERO Assignment](https://65a55b9da79a92044aa84955--chipper
 
 ## Features
 
--Allow users to login and signup.
--UI to add new program in database.If the required field is not filled then it will not be added in database.
--To view the complete information of program and search program according to their name.
--Allow users to delete and update program only if they are in editing mode.
--Allow to add program in database as draft also.
+- Allow users to login and signup.
+- UI to add new program in database.If the required field is not filled then it will not be added in database.
+- To view the complete information of program and search program according to their name.
+- Allow users to delete and update program only if they are in editing mode.
+- Allow to add program in database as draft also.
 
 ## Future Scope of Improvement
 
