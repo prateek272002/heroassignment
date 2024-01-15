@@ -2,8 +2,8 @@
 
 This web application made using MERN tech stack which allows user to add new program,add program as draft,edit existing program and delete existing program.The users can do this only if they are logged in (acheived this using JWT).
 
-Check out our App at [HERO Assignment](https://65a55b9da79a92044aa84955--chipper-kitten-2b07ed.netlify.app/)
-
+- Check out our Web Application at [HERO Assignment](https://65a55b9da79a92044aa84955--chipper-kitten-2b07ed.netlify.app/)
+- [Video Demo](https://drive.google.com/file/d/16JYKhKVOMl024cRvoirOMHTHlFZ9rAfg/view?usp=sharing)
 ## Features
 
 - Allow users to login and signup.
@@ -23,7 +23,7 @@ React,  HTML, CSS, JavaScript
 
 ## Framework
  
- Expressjs
+ Express.js
 
 ## Database
  MongoDB
