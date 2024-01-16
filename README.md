@@ -2,7 +2,7 @@
 
 This web application made using MERN tech stack which allows user to add new program,add program as draft,edit existing program and delete existing program.The users can do this only if they are logged in (acheived this using JWT).
 
-- Check out our Web Application at [HERO Assignment](https://chipper-kitten-2b07ed.netlify.app/)
+- Check out our Web Application at [HERO Assignment](https://65a639f8f8ae31964a70ca9c--chipper-kitten-2b07ed.netlify.app/)
 - [Video Demo](https://drive.google.com/file/d/16JYKhKVOMl024cRvoirOMHTHlFZ9rAfg/view?usp=sharing)
 ## Features
 

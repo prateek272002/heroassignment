@@ -27,6 +27,9 @@ export default function Navbar() {
           <div className="nav-link" style={{color:"black", cursor:"pointer"} } onClick={handleLogout} >LogOut</div>
         </li>
        }
+        <li className="nav-item">
+          <a className="nav-link" style={{color:"black", cursor:"pointer"} } href='https://github.com/prateek272002/heroassignment/blob/master/README.md' >Github Link</a>
+        </li>
       </ul>
     </div>
   </div>
